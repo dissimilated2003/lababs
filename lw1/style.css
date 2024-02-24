@@ -1,0 +1,19 @@
+.button {
+  height: 20px;
+}
+
+.button.Home {
+  width: 39px;
+}
+
+.button.Categories {
+  width: 78px;
+}
+
+.button.About {
+  width: 41px;
+}
+
+.button.Contact {
+  width: 51px;
+}
