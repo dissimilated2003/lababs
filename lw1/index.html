@@ -2,31 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>The-Road_Ahead</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The_Road_Ahead</title>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <header> <!--шапка-->
-      <a><img src="images/Escape.svg"></a>
-      <nav>
-        <ul>
-          <li><a>Home</a></li>
-          <li><a>Categories</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-        <div> <!--это заголовок-->
-            <h1 class="title__text">The Road Ahead</h1>
-            <p>The road ahead might be paved - it might not be</p>
+    <header>
+      <div class="header_block">
+        <div class="header_logo">
+        <a href="#!"><img src="images/Escape.svg" alt="Escape head"></a>
         </div>
-        <img src="images/IMAGENothernLights.svg" alt="images/IMAGENothernLights">
-    </section>
-    <section>
-        <div class="text__frame">
-          <p>
+          <div class="top_menu">
+            <nav class="site_menu">           
+              <ul class="header_list">
+                <li class="nav_home">
+                  <a href="#!" class="link_1">HOME</a>
+                </li>
+                <li class="nav_categories">
+                  <a href="#!" class="link_2">CATEGORIES</a>
+                </li>
+                <li class="nav_about">
+                  <a href="#!" class="link_3">ABOUT</a>
+                </li>
+                <li class="nav_contact">
+                  <a href="#!" class="link_4">CONTACT</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div> 
+          <div class="title_text">
+            <h1>The Road Ahead</h1>
+          </div>  
+          <div class="subtitle_text">
+            <p>The road ahead might be paved - it might not be</p>
+          </div>
+        </div>
+        <div class="lights_png">
+          <img src="images/IMAGENothernLights.svg" alt="Nothern Lights">
+        </div>
+      </section>
+      <section>
+        <div class="text_frame"> 
+          <div class="text_content">
+            <p class="main_text">
             Dark spruce forest frowned on either side the frozen waterway. The trees had been 
             stripped by a recent wind of their white covering of frost, and they seemed to lean 
             towards each other, black and ominous, in the fading light. A vast silence reigned over 
@@ -68,19 +91,35 @@
             adventure, pitting themselves against the might of a world as remote and alien and 
             pulseless as the abysses of space.
             <br></br>
-          </p>
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
     <footer>
-      <img src="images/FooterBackground.svg">
-      <a><img src="images/EscapeFoot.svg"></a>
-      <nav>
+      <div>
+        <div class="footer_bgr">
+          <img src="images/FooterBackground.svg" alt="Village blur">
+        </div>
+        <div class="footer_logo">
+          <a><img src="images/EscapeFoot.svg"></a>
+        </div>
+      <nav class="footer_nav">        
         <ul>
-          <li><a>Home</a></li>
-          <li><a>Categories</a></li>
-          <li><a>About</a></li>
-          <li><a>Contact</a></li>
+          <li class="item_11">
+            <a href="#!" class="link_11">HOME</a>
+          </li>
+          <li class="item_12">
+            <a href="#!" class="link_12">CATEGORIES</a>
+          </li>
+          <li class="item_13">
+            <a href="#!" class="link_13">ABOUT</a>
+          </li>
+          <li class="item_14">
+            <a href="#!" class="link_14">CONTACTS</a>
+          </li>
         </ul>
       </nav>
+      </div>
     </footer>
   </body>
