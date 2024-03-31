@@ -73,7 +73,7 @@ ul li {
   height: 20px;
   line-height: 26px;
   letter-spacing: 1px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .invite {
@@ -101,7 +101,7 @@ ul li {
   font-weight: 400;
   font-size: 17px;
   margin-bottom: 31px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .viewlatest {
@@ -115,7 +115,7 @@ ul li {
   padding-top: 12px;
   background-color: #DD783F;
   border-radius: 3px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .directory {
@@ -139,7 +139,7 @@ ul li {
   text-align: center;
   margin-left: 10px;
   font-size: 14px;
-  font-style: 'Lora';
+  font-family: 'Lora';
 }
 
 .line_set {
@@ -171,7 +171,8 @@ ul li {
   color: #2E2E2E;
   font-size: 20px;
   margin: auto;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  letter-spacing: 2px;
 }
 
 .line {
@@ -218,15 +219,16 @@ ul li {
   font-weight: 400;
   font-size: 27px;
   margin-top: 58px;
-  font-style: 'Lora';
+  font-family: 'Lora';
 }
 
 .annotation {
-  color: white;
+  color: #FFFFFFB2;
   margin-top: 6px;
   height: 25px;
   font-weight: 400;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  font-size: 14px;
 }
 
 .component {
@@ -251,17 +253,19 @@ ul li {
 
 .autor1 {
   padding-top: 5px;
-  color: white;
+  color: #FFFFFFB2;
   height: 35px;
   padding-left: 10px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  font-size: 12px;
 }
 
 .datestamp {
-  color: white;
+  color: #FFFFFFB2;
   height: 35px;
   padding-top: 5px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  font-size: 12px;
 }
 
 .avatar_william {
@@ -277,17 +281,17 @@ ul li {
   width: 87px;
   background-color: #DD783F;
   border-radius: 2px;
-  align-items: center;
+  padding-top: 3px;
 }
 
 .advent {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   font-size: 12px;
-  height: 13px;
-  margin-top: 6px;
+  line-height: 13px;
   margin-left: 9px;
   font-weight: 400;
+  font-family: 'Oxygen';
 }
 
 .box2 {
@@ -303,23 +307,25 @@ ul li {
   font-weight: 400;
   font-size: 27px;
   margin-top: 58px;
-  font-style: 'Lora';
+  font-family: 'Lora';
 }
 
 .analog {
-  color: white;
+  color: #FFFFFFB2;
   margin-top: 6px;
   height: 25px;
   font-weight: 400;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  font-size: 14px;
 }
 
 .autor2 {
   padding-top: 5px;
-  color: white;
+  color: #FFFFFFB2;
   height: 35px;
   padding-left: 10px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  font-size: 12px;
 }
 
 .path6 {
@@ -342,7 +348,8 @@ ul li {
   font-size: 20px;
   margin: auto;
   margin-bottom: 12px;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
+  letter-spacing: 2px;
 }
 
 .recent_posts {
@@ -405,7 +412,7 @@ ul li {
   font-weight: 400;
   font-size: 16px;
   color: #101315;
-  font-style: 'Lora';
+  font-family: 'Lora';
 }
 
 .phrase {
@@ -414,7 +421,7 @@ ul li {
   font-weight: 400;
   font-size: 13px;
   color: #7A7A7A;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .dateout {
@@ -424,8 +431,8 @@ ul li {
   font-size: 12px;
   font-weight: 400;
   color: #999999;
-  padding-right: 13px;
-  font-style: 'Oxygen';
+  margin-right: 10px;
+  font-family: 'Oxygen';
 }
 
 .sector {
@@ -442,7 +449,7 @@ ul li {
   padding-left: 11px;
   font-size: 11px;
   font-weight: 400;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .personmat {
@@ -452,7 +459,7 @@ ul li {
   padding-left: 11px;
   font-size: 12px;
   font-weight: 400;
-  font-style: 'Oxygen';
+  font-family: 'Oxygen';
 }
 
 .village {
