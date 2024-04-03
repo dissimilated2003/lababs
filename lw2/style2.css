@@ -24,7 +24,7 @@ header {
   height: 500px;
   margin: 0 auto;
   padding: 17px 0 0 0 px;
-  background-size: 100%;
+  background-size: cover;
   background-image: url(images2/RockyDesert.svg);
 }
 
@@ -355,7 +355,9 @@ ul li {
 .recent_posts {
   width: 960px;
   height: 632px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin-top: 6px;
 }
 
@@ -364,17 +366,6 @@ ul li {
   height: 291px;
   margin-left: 12px;
   margin-right: 12px;
-}
-
-.firstepisodes {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 31px;
-}
-
-.secondepisodes {
-  display: flex;
-  flex-direction: row;
 }
 
 .imagebox {
@@ -467,7 +458,7 @@ ul li {
   height: 89px;
   background-image: url(images2/Footer.svg);
   position: relative;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .footerbox {
