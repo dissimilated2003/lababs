@@ -18,7 +18,7 @@ header {
   margin: 0 auto;
 }
 
-.wrapper {
+.header {
   display: inline-block;
   width: 100%;
   height: 500px;
@@ -28,12 +28,12 @@ header {
   background-image: url(images2/RockyDesert.svg);
 }
 
-.without_lines {
+.header__menu-link {
   text-decoration: none;
   color: white;
 }
 
-.panel {
+.header__panel {
   display: inline-block;
   width: 940px;
   height: 40px;
@@ -47,11 +47,11 @@ ul li {
   display: inline-block;
 }
 
-.hlogo .hlist {
+.header__logo .header__panel-navigation {
   margin-top: 17px;
 }
 
-.hlogo {
+.header__logo {
   float: left;
   margin-top: 3px;
   width: 92px;
@@ -59,12 +59,12 @@ ul li {
   position: absolute;
 }
 
-.hlist {
+.header__panel-navigation {
   height: 40px;
   position: relative;
 }
 
-.menu {
+.header__panel-menu {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
@@ -76,12 +76,12 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.invite {
+.header__cite-block {
   text-align: center;
   margin-top: 110px;
 }
 
-.letsdoit {
+.header__cite {
   color: white;
   width: 498px;
   height: 51px;
@@ -93,7 +93,7 @@ ul li {
   font-family: 'Lora';
 }
 
-.wetravel {
+.header__notion {
   color: white;
   width: 504px;
   height: 20px;
@@ -104,7 +104,7 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.viewlatest {
+.header__button {
   color: white;
   width: 167px;
   height: 44px;
@@ -118,20 +118,20 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.directory {
+.main-menu {
   width: 100%;
   height: 65px;
   background-color: white;
 }
 
-.six_case {
+.main-menu__navigation {
   width: 960px;
   height: 46px;
   margin: auto;
   padding-top: 9px;
 }
 
-.selection {
+.main-menu__selection {
   font-weight: 400;
   height: 20px;
   width: 139px;
@@ -142,30 +142,30 @@ ul li {
   font-family: 'Lora';
 }
 
-.line_set {
+.main-menu__link {
   text-decoration: none;
   color: #768088;
 }
 
-.interpretation {
+.declaration-section {
   width: 100%;
   height: 1255px;
   background-color: #F7F7F7;
 }
 
-.path2 {
+.featured-posts {
   width: 940px;
   height: 414px;
   margin: auto;
 }
 
-.for_text_2 {
+.featured-posts__title {
   text-align: center;
   padding-top: 60px;
   margin-bottom: 16px;
 }
 
-.fp_frame {
+.featured-posts__caption {
   text-align: center;
   height: 44px;
   color: #2E2E2E;
@@ -182,14 +182,14 @@ ul li {
   margin: auto;
 }
 
-.featured_posts {
+.featured-posts__block {
   width: 960px;
   height: 294px;
   display: flex;
   flex-direction: row;
 }
 
-.the_road_ahead {
+.featured-posts__the-road-ahead {
   width: 460px;
   height: 280px;
   background-image: url(images2/NothernLights.svg);
@@ -197,7 +197,7 @@ ul li {
   margin-top: 7px;
 }
 
-.from_top_down {
+.featured-posts__from-top-down {
   width: 460px;
   height: 280px;
   background-image: url(images2/Lanterns.svg);
@@ -206,14 +206,14 @@ ul li {
   margin-top: 7px;
 }
 
-.box1 {
+.featured-posts__post-block_left {
   width: 100%;
   height: 181px;
   padding-top: 99px;
   padding-left: 20px;
 }
 
-.headoftra {
+.featured-posts__post-head_left {
   height: 30px;
   color: white;
   font-weight: 400;
@@ -222,7 +222,7 @@ ul li {
   font-family: 'Lora';
 }
 
-.annotation {
+.featured-posts__post-annotation_left {
   color: #FFFFFFB2;
   margin-top: 6px;
   height: 25px;
@@ -231,7 +231,7 @@ ul li {
   font-size: 14px;
 }
 
-.component {
+.featured-posts__profile {
   margin-top: 12px;
   width: 420px;
   display: flex;
@@ -239,19 +239,31 @@ ul li {
   justify-content: space-between;
 }
 
-.aspect {
+.featured-posts__person {
   height: 35px;
   display: flex;
   flex-direction: row;
 }
 
-.avatar_mat {
+.recent-posts__post-avatar_mat {
   height: 26px;
   width: 26px;
   background-image: url(images2/MatVogels.svg);
 }
 
-.autor1 {
+.featured-posts__post-avatar_william {
+  height: 26px;
+  width: 26px;
+  background-image: url(images2/WilliamWong.svg);
+}
+
+.featured-posts__post-avatar_mat {
+  height: 26px;
+  width: 26px;
+  background-image: url(images2/MatVogels.svg);
+}
+
+.featured-posts__post-person_mat {
   padding-top: 5px;
   color: #FFFFFFB2;
   height: 35px;
@@ -260,7 +272,7 @@ ul li {
   font-size: 12px;
 }
 
-.datestamp {
+.featured-posts__post-datestamp {
   color: #FFFFFFB2;
   height: 35px;
   padding-top: 5px;
@@ -268,13 +280,13 @@ ul li {
   font-size: 12px;
 }
 
-.avatar_william {
+.recent-posts__post-avatar_william {
   height: 26px;
   width: 26px;
   background-image: url(images2/WilliamWong.svg);
 }
 
-.reference {
+.featured-posts__post-button {
   margin-top: 20px;
   margin-left: 20px;
   height: 26px;
@@ -284,7 +296,7 @@ ul li {
   padding-top: 3px;
 }
 
-.advent {
+.featured-posts__post-link {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 12px;
@@ -294,14 +306,14 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.box2 {
+.featured-posts__post-block_right {
   width: 100%;
   height: 181px;
   padding-top: 53px;
   padding-left: 20px;
 }
 
-.headofftd {
+.featured-posts__post-head_right {
   height: 30px;
   color: white;
   font-weight: 400;
@@ -310,7 +322,7 @@ ul li {
   font-family: 'Lora';
 }
 
-.analog {
+.featured-posts__post-annotation_right {
   color: #FFFFFFB2;
   margin-top: 6px;
   height: 25px;
@@ -319,7 +331,7 @@ ul li {
   font-size: 14px;
 }
 
-.autor2 {
+.featured-posts__post-person_william {
   padding-top: 5px;
   color: #FFFFFFB2;
   height: 35px;
@@ -328,20 +340,20 @@ ul li {
   font-size: 12px;
 }
 
-.path6 {
+.recent-posts {
   width: 960px;
   height: 752px;
   margin: auto;
 }
 
-.for_text_6 {
+.recent-posts__title {
   height: 44px;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 16px;
 }
 
-.ms_frame {
+.recent-posts__caption {
   text-align: center;
   height: 27px;
   color: #2E2E2E;
@@ -352,7 +364,7 @@ ul li {
   letter-spacing: 2px;
 }
 
-.recent_posts {
+.recent-posts__block {
   width: 960px;
   height: 632px;
   display: flex;
@@ -361,14 +373,14 @@ ul li {
   margin-top: 6px;
 }
 
-.stream {
+.recent-posts__post-block {
   width: 296px;
   height: 291px;
   margin-left: 12px;
   margin-right: 12px;
 }
 
-.imagebox {
+.recent-posts__post-wallpaper {
   width: 296px;
   height: 150px;
   background-size: 100%;
@@ -380,7 +392,7 @@ ul li {
   background-color: #EFEFEF;
 }
 
-.preface {
+.recent-posts__post-preface {
   width: 296px;
   height: 93px;
   background-color: white;
@@ -388,7 +400,7 @@ ul li {
   padding-top: 14px;
 }
 
-.profile {
+.recent-posts__post-profile {
   width: 296px;
   height: 48px;
   background-color: #FCFCFC;
@@ -398,7 +410,7 @@ ul li {
   padding-top: 10px;
 }
 
-.cite {
+.recent-posts__post-cite {
   height: 21px;
   font-weight: 400;
   font-size: 16px;
@@ -406,7 +418,7 @@ ul li {
   font-family: 'Lora';
 }
 
-.phrase {
+.recent-posts__post-notion {
   width: 270px;
   line-height: 19px;
   font-weight: 400;
@@ -415,7 +427,7 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.dateout {
+.recent-posts__post-datestamp {
   width: 60px;
   height: 35px;
   margin-top: 7px;
@@ -426,14 +438,14 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.sector {
+.recent-posts__profile-block {
   height: 35px;
   display: flex;
   flex-direction: row;
   margin-left: 11px;
 }
 
-.personwill {
+.recent-posts__post-person_william {
   padding-top: 7px;
   color: #999999;
   height: 35px;
@@ -443,7 +455,7 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.personmat {
+.recent-posts__post-person_mat {
   padding-top: 7px;
   color: #999999;
   height: 35px;
@@ -453,7 +465,7 @@ ul li {
   font-family: 'Oxygen';
 }
 
-.village {
+.footer {
   width: 100%;
   height: 89px;
   background-image: url(images2/Footer.svg);
@@ -461,32 +473,32 @@ ul li {
   background-size: cover;
 }
 
-.footerbox {
+.footer__panel {
   width: 960px;
   height: 34px;
   margin: auto;
   padding-top: 28px;
 }
 
-.footernav {
+.footer__panel-navigation {
   text-align: right;
   margin: 0 auto;
 }
 
-.footerlogo {
+.footer__logo {
   width: 92px;
   height: 26px;
   padding-top: 3px;
   float: left;
 }
 
-.flist {
+.footer__menu-navigation {
   height: 32px;
   position: relative;
   text-align: right;
 }
 
-.fmenu {
+.footer__panel-menu {
   color: #FFFFFF60;
   padding-top: 10px;
   margin-left: 20px;
@@ -498,13 +510,13 @@ ul li {
   letter-spacing: 1px;
 }
 
-.footerbgr {
+.footer__background-effect {
   width: 100%;
   height: 100%;
   background: #232F3860;
 }
 
-.footlines {
+.footer__menu-link {
   text-decoration: none;
   color: #FFFFFF99;
 }
