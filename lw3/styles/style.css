@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 1440px;
+  height: 2689px;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 74px;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 17px 0 0 250px;
+}
+
+.wrapper .inside_box {
+  width: 940px;
+  height: 40px;
+  text-align: right;
+}
+
+.logo {
+  width: 92px;
+  height: 26px;
+  padding-top: 3px;
+  float: left;
+}
+
+ul li {
+  display: inline-block;
+  height: 40px;
+}
+
+.nav_element {
+  color:#2e2e2e;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-family: 'Oxygen';
+}
+
+.no_lines {
+  text-decoration: none;
+  color:#2e2e2e;
+}
+
+.title_all {
+  width: 940px;
+  height: 159px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 89px;
+}
+
+.headline {
+  width: 498px;
+  height: 51px;
+  margin-top: -7px;
+  margin-left: 221px;
+  font-size: 50px;
+  font-family: 'Lora';
+  line-height: 51px;
+  font-weight: 400;
+}
+
+.annotation {
+  width: 504px;
+  height: 20px;
+  margin-top: 13px;
+  margin-left: 218px;
+  font-family: 'Oxygen';
+  font-weight: 400;
+}
+
+.lights_png {
+  width: 1440px;
+  height: 534px;
+  padding-top: 28px;
+  border-radius: 3px;
+}
+
+.text_frame {
+  width: 960px;
+  height: 1431px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  font-family: 'Oxygen';
+}
+
+.footer_block {
+  width: 100%;
+  height: 89px;
+  background-image: url(../images/FooterBackground.svg);
+  position: relative;
+}
+
+.footer_nav {
+  width: 960px;
+  height: 62px;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.footer_logo {
+  width: 92px;
+  height: 26px;
+  padding-top: 3px;
+  float: left;
+}
+
+.white_lines {
+  text-decoration: none;
+  color: white;
+}
+
+.down_item {
+  color: #FFFFFF60;
+  opacity: 0.6;
+  padding-top: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 400;
+  font-family: 'Oxygen';
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.footer_list {
+  padding-top: 28px;
+}
+
+.footer_background {
+  width: 100%;
+  height: 100%;
+  background: #232F3860;
+}
