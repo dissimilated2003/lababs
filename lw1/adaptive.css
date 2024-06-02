@@ -1,0 +1,157 @@
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+    .text_frame {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .main_text {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .text_frame {
+        max-width: 920px;
+    }
+    .lights_png {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {  
+    .main_text {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .text_frame {
+        max-width: 880px;
+    }
+    .lights_png {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 1160px) { 
+    .main_text {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .text_frame {
+        max-width: 840px;
+    }
+    .lights_png {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) { 
+    .main_text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text_frame {
+        max-width: 800px;
+    }
+    .lights_png {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .main_text {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .text_frame {
+        max-width: 750px;
+    }
+    .lights_png {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .main_text {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .text_frame {
+        max-width: 580px;
+    }
+    .lights_png {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_text {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .text_frame {
+        max-width: 470px;
+    }
+    .lights_png {
+        padding-top: 40px;
+    }
+    .annotation {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .main_text {
+        font-size: 25px;
+        line-height: 35px; 
+    }
+    .text_frame {
+        max-width: 400px;
+    }
+    .annotation {
+        font-size: 18px;
+    }
+    .lights_png {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {  
+    .main_text {
+        font-size: 28px;
+        line-height: 40px; 
+    }
+    .text_frame {
+        max-width: 370px;
+    }
+    .annotation {
+        font-size: 20px;
+    }
+    .lights_png {
+        padding-top: 20px;
+    }
+    .vorona {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 260px) {  
+    .headline {
+        min-height: 102px;
+    }
+    .title_all {
+        min-height: 170px;
+    }
+}
+
+@media screen and (max-width: 220px) {  
+    .headline {
+        min-height: 102px;
+    }
+    .title_all {
+        min-height: 210px;
+    }
+}
