@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link href="style2.css" rel="stylesheet">
+    <link href="adaptive2.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
@@ -15,17 +16,21 @@
       <div class="header__logo">
         <a href="#!"><img src="images2/Escape.svg" alt="Escape logo"></a>
       </div>
-      <ul class="header__panel-navigation">
-        <li class="header__panel-menu"><a href="#!" class="header__menu-link">HOME</a></li>
-        <li class="header__panel-menu"><a href="#!" class="header__menu-link">CATEGORIES</a></li>
-        <li class="header__panel-menu"><a href="#!" class="header__menu-link">ABOUT</a></li>
-        <li class="header__panel-menu"><a href="#!" class="header__menu-link">CONTACT</a></li>
-      </ul>
+      <div class="vorona">
+        <button class="burger"><input type="checkbox" id="burger-checkbox" class="burger-checkbox"></button>    
+        <label for="burger-checkbox" class="burger"></label>
+        <ul class="header__panel-navigation">
+          <li class="header__panel-menu"><a href="#!" class="header__menu-link">HOME</a></li>
+          <li class="header__panel-menu"><a href="#!" class="header__menu-link">CATEGORIES</a></li>
+          <li class="header__panel-menu"><a href="#!" class="header__menu-link">ABOUT</a></li>
+          <li class="header__panel-menu"><a href="#!" class="header__menu-link">CONTACT</a></li>
+        </ul>
+      </div>
     </nav>
     <div class="header__cite-block">
       <h1 class="header__cite">Let's do it together.</h1>
       <div class="header__notion">
-        <p>We travel the world in search of stories. Come along for the ride.</p>
+        <p class="header__notion">We travel the world in search of stories. Come along for the ride.</p>
       </div>
       <div class="header__button">
         <a href="#!" class="header__menu-link">View Latest Posts</a>
@@ -35,7 +40,7 @@
   <main>
     <section class="main-menu">
       <nav class="main-menu__navigation">
-        <ul>
+        <ul class="main-menu__list">
           <li class="main-menu__selection"><a href="#!" class="main-menu__link">Nature</a></li>
           <li class="main-menu__selection"><a href="#!" class="main-menu__link">Photography</a></li>
           <li class="main-menu__selection"><a href="#!" class="main-menu__link">Relaxation</a></li>
@@ -188,6 +193,16 @@
     </section>
   </main>
   <footer class="footer">
+    <div class="pre-footer">
+      <div class="pre-footer__block">
+        <h3 class="pre-footer__cite">Stay in Touch</h3>
+        <div class="pre-footer__line"></div>
+      </div>
+      <div class="pre-footer__input">
+        <input class="enter-email" placeholder="Enter your email address">
+        <div class="submit"><a class="pre-footer__button">Submit</a></div>
+      </div>
+    </div>
     <div class="footer__background-effect">
       <div class="footer__panel">
         <nav class="footer__panel-navigation">

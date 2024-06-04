@@ -1,0 +1,88 @@
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1280px) {  
+
+}
+
+@media screen and (max-width: 1160px) { 
+
+}
+
+@media screen and (max-width: 1024px) { 
+    .header__panel-navigation {
+        padding-right: 20px;
+    }
+    .header__logo {
+        padding-left: 20px;
+    }
+    .footer__logo {
+        padding-left: 20px;
+    }
+    .footer__menu-navigation {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) { 
+
+}
+
+@media screen and (max-width: 768px) { 
+
+}
+
+@media screen and (max-width: 600px) {
+    .enter-email {
+        width: 300px;
+    }
+    .submit {
+        width: 90px;
+    }
+    .main-menu {
+        height: 110px;
+    }
+    .header__cite {
+        max-width: 490px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .enter-email {
+        width: 240px;
+    }
+    .submit {
+        width: 75px;
+    }
+    .featured-posts__the-road-ahead {
+        width: 400px;
+    }
+    .featured-posts__profile {
+        max-width: 360px;
+    }
+    .featured-posts__from-top-down {
+        max-width: 400px;
+    }
+    .header__notion {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {  
+    .header__notion {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 260px) {  
+
+}
