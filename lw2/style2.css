@@ -545,6 +545,7 @@ ul li {
   width: 100%;
   background-image: url(images2/FooterNew.svg);
   position: relative;
+  background-size: cover;
 }
 
 .pre-footer {
